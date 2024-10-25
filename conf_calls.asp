@@ -3,7 +3,6 @@
 <head>
 <!--#include File="./MyLogin/MyLoginSecurePage.inc"--> 
 <!--#include file="./0commonz2.asp"-->
-<!--#include file="./0COMMON_DATEMATH.asp" -->
 <!--#include file="./menu.asp"-->
 <!--#include file="./jquery-contextmenu.asp"-->
 <style>
@@ -16,23 +15,7 @@
 		background-color: white;
 		border: 2px;
 	}
-		#parsed_text_container {
-		display:none;
-		position: absolute; 
-		background: white;
-		border:1px solid gray;
-		/* padding: 15px;  */
-		top: 3vw; 
-		left: 55vw;  
-		width: 35vw;
-		z-index: 100;
-		border-radius: 10px;		
-		box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-			-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-			-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-			-o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-	}
-	#parsed_text_container_header {
+		
 		/* border: 8px solid lightblue; */
 		background: lightblue;
 		text-align: center;
